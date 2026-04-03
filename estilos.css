@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: #171717;
+}
+
+h1 {
+    color: #b22b2b;
+}
+
+.logo {
+    cursor: pointer;
+    width: 150px;
+    height: auto;
+    display: block;
+}
+
+.logo img {
+    max-width: 40%;
+}
+
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 50px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+
+.nav-links li a:hover {
+    color: #b22b2b;
+}
+
+.cards {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    width: 100%;
+    font-family: var(--font-main);
+}
+
+.card {
+    align-items: center;
+    text-align: center;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-card);
+    justify-content: space-between;
+    min-height: 15rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    margin: 20px;
+    color: var(--text-white);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+button {
+    padding: 9px;
+    background-color: #cccccc;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;    
+}
+
+button:hover {
+    background-color: #b22b2b;
+}
+
+
+
+
